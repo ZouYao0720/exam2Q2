@@ -7,7 +7,7 @@ testpath = "/Users/zouyao/Documents/NEUfiles/MachineLearning/Exam2/Q2test.csv";
 data = csvread(path);
 datatest = csvread(testpath);
 figure(1)
-plot(data(:,2),data(:,3),'--o');
+plot(data(:,2),data(:,3),':o');
 xlabel('measurement h')
 ylabel('measurement b')
 grid on
